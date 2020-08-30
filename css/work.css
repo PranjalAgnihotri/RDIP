@@ -1,0 +1,20 @@
+body{
+	background:#B3B3B3;
+	margin:2%;
+	font-size: 150%;
+
+}
+header{
+	background: #00b7ea;
+	text-align: center;
+	padding-bottom: 15px;
+}
+nav a{
+	width: 22%;
+	display: inline-block;
+	background: #FFFFFF;
+}
+p{
+	text-align: center;
+	color: #666666;
+}
