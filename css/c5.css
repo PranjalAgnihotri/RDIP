@@ -1,0 +1,32 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+P.A{
+  background-color: yellow;
+  font-size: 150%;
+  
+   direction: rtl;
+  
+   text-indent: 50px;
+   text-decoration: underline;
+    
+}
+p{
+	background-color: green;
+	
+
+}
+a{
+	background-color: red;
+	font-size: 250%;
+
+}
+footer{
+	background-color: red;
+}
