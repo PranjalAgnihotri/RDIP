@@ -1,0 +1,55 @@
+
+<!DOCTYPE HTML> 
+<html> 
+  
+<head> 
+    <title> 
+        How to Convert Integer array to 
+        String array using JavaScript ? 
+    </title> 
+  
+    <style> 
+        body { 
+            text-align: center; 
+        } 
+        h1 { 
+            color: green; 
+        } 
+        #geeks{ 
+            font-weight: bold; 
+        } 
+    </style> 
+</head> 
+  
+<body> 
+    <h1>Javascript Variable</h1> 
+      
+    <p id="GFG"></p> 
+      
+    <button onclick="gfg_Run()"> 
+        Click Here 
+    </button> 
+      
+    <p id="geeks"></p> 
+      
+    <script> 
+        var el_up = document.getElementById("GFG"); 
+        var el_down = document.getElementById("geeks"); 
+        var arr = [1, 4, 56, 43, 67, 98]; 
+          
+        el_up.innerHTML = "Click on the button to " 
+                + "convert the integer array" + 
+                " to string array.<br>Array = '"  
+                + arr + "' typeof(Array[3]) - " 
+                + typeof(arr[3]); 
+  
+        function gfg_Run() { 
+            var gfg = arr.join().split(', '); 
+              
+            el_down.innerHTML = "Array - " + gfg +  
+            " typeof(Array[3]) - " + typeof(gfg[0]); 
+        } 
+    </script> 
+</body> 
+  
+</html>
